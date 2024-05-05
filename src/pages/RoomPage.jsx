@@ -18,11 +18,11 @@ function RoomPage() {
             sharedLinks: [
               {
                 name: 'copy link',
-                url: `http://meet-n799.onrender.com/Room/${RoomId}`,
+                url: `http://meet-zego.com/Room/${RoomId}`,
               },
             ],
             scenario: {
-              mode: ZegoUIKitPrebuilt.OneONoneCall, // To implement 1-on-1 calls, modify the parameter here to [ZegoUIKitPrebuilt.OneONoneCall].
+              mode: ZegoUIKitPrebuilt.GroupCall, // To implement 1-on-1 calls, modify the parameter here to [ZegoUIKitPrebuilt.OneONoneCall].
             },
           });
     
