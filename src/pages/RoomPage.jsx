@@ -18,7 +18,7 @@ function RoomPage() {
             sharedLinks: [
               {
                 name: 'copy link',
-                url: `https://console-api-sig.zegocloud.com/s/uikit/RvIZRn/Room/${RoomId}`,
+                url: `https://console-api-sig.zegocloud.com/Room/${RoomId}`,
               },
             ],
             scenario: {
