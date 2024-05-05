@@ -18,7 +18,7 @@ function RoomPage() {
             sharedLinks: [
               {
                 name: 'copy link',
-                url: `http://meet-n778.onrender.com/Room/${RoomId}`,
+                url: `http://meet-n799.onrender.com/Room/${RoomId}`,
               },
             ],
             scenario: {
