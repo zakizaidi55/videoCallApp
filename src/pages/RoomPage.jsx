@@ -18,7 +18,7 @@ function RoomPage() {
             sharedLinks: [
               {
                 name: 'copy link',
-                url:`https://video-call-pfqv1q63r-zakizaidi55s-projects.vercel.app/Room/${RoomId}`,
+                url:`https://meet.onrender/Room/${RoomId}`,
               },
             ],
             scenario: {
