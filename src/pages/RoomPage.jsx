@@ -18,7 +18,7 @@ function RoomPage() {
             sharedLinks: [
               {
                 name: 'copy link',
-                url:`https://video-call-app-pearl.vercel.app/Room/${RoomId}`,
+                url:`https://video-call-pfqv1q63r-zakizaidi55s-projects.vercel.app/Room/${RoomId}`,
               },
             ],
             scenario: {
