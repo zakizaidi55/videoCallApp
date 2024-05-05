@@ -6,9 +6,10 @@ function HomePage() {
     const navigate = useNavigate();
 
 
-    const submitHandler = () => {
-        navigate(`/Room/${value}`)
-    }
+    const submitHandler = useCallback(() => {
+        navigate(`/Room/${value}`);
+    }, [navigate, value]);
+    
   return (
     <div className='bg-blue-400 flex flex-col gap-2'>
         <div>
