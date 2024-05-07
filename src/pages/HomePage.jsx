@@ -12,10 +12,10 @@ function HomePage() {
     }, [navigate, value]);
     
   return (
-    <div className='bg-blue-400 flex flex-col gap-2'>
-        <div>
-            <label htmlFor='enterCode'>Enter your code</label>
-            <input className='text-red-700'
+    <div className='bg-blue-400 flex flex-col gap-2 h-screen w-full overflow-hidden justify-center items-center'>
+        <div className='flex space-x-4'>
+            <label htmlFor='enterCode' className='font-bold text-lg text-cyan-950'>Enter your code</label>
+            <input className='text-red-700 rounded-lg '
                 type='text'
                 name='enterCode'
                 id='enterCode'
@@ -25,7 +25,7 @@ function HomePage() {
             />
         </div>
 
-        <button  className='font-bold rounded-lg' 
+        <button  className='font-bold border-l-gray-950' 
         onClick={submitHandler}> Enter</button>
 
     </div>
